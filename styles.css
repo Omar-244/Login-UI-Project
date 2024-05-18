@@ -26,6 +26,7 @@ body, html {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     box-sizing: border-box;
+    transition: background-color 0.3s ease;
 }
 
 .login-box h2 {
@@ -61,8 +62,12 @@ button {
     color: white;
     font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
     background-color: #0056b3;
+}
+.login-box:hover {
+    background-color: rgb(47, 212, 47);
 }
